@@ -1,0 +1,201 @@
+
+.main-nav{
+  height: 180px;
+  width: 100%;
+  background-color: #000;
+  margin: 0px;
+  
+}
+
+.logo{
+  height: 100%;
+  margin: 0px;
+  float: left;
+}
+
+
+
+.nav-list {
+  float: right;
+  text-align: center;
+  margin: 80px;
+  margin-top: 70px;
+  padding-right: 40px;
+  list-style: none;
+  font-size: 40px;
+  
+}
+
+.nav-item {
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.nav-link {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Nanum Pen Script', cursive;
+  padding-left: 50px;
+  text-decoration: none;
+  
+}
+
+
+.main-section{
+  
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+body {
+  background-color: #000;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 40px;
+  background-image: url('../img/btf.jpg');
+  background-size: auto;
+}
+
+
+.sitename{
+  font-size: 60px;
+  color: #f93822;
+  position: absolute;
+  left: 200px;
+  top: 5px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+
+
+.pet-list{
+  color: white;
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  
+}
+
+h1{
+  padding-top: 20px;
+}
+
+/*DROP-DOWN MENU*/
+.dropbtn {
+    background-color: red;
+    color: yellow;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B4FFAF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/*footer start*/
+
+.main-box {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1800px;
+  
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.circle-background {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center {
+  margin: 0 auto;
+  
+}
+
+.center-text {
+  padding-top: 35px;
+  color: #fff;
+  
+  
+}
+
+
+.fa-facebook-f {
+  color: white;
+}
+
+/* LINK STYLING*/
+footer {
+  background-color: white;
+}
+
+a:hover {
+  color: orange;
+  
+}
+
+a:active {
+    color: red;
+}
+

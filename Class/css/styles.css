@@ -1,0 +1,232 @@
+
+.main-nav{
+  height: 90px;
+  width: 100%;
+  background-color: #000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo{
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+
+
+body{
+  margin: 0px;
+  
+}
+
+ul{
+  font-size: 20px;
+  font-family: cursive;
+}
+
+li{
+  display: inline;
+  padding: 30px;
+  
+}
+
+.nav-list{
+  float: right;
+  margin: 5px;
+  list-style: none;
+}
+
+.nav-item{
+  float: left;
+  margin: 0px;
+  
+}
+
+.nav-Apple{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none; 
+}
+
+/* BACKGROUND */
+
+
+
+/*start hero styles*/
+.hero-section{
+  
+  height: 1000px;
+  background-image: url('../images/cats-paw.jpg');
+  
+  text-align: center;
+  color: white;
+  
+  
+}
+
+
+/*end hero styles*/  
+  
+h1 {
+margin-top: 0px;
+padding: 20px;
+font-size: xx-large;
+
+}
+
+
+
+/* highlight */
+.text-bg {
+   background-color: rgba(0,0,0,0.5);
+   margin-top: 30px;
+   font-family: 'Satisfy', cursive;
+   font-size: xx-large;
+}
+
+.span {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  margin-top: 30px;
+  
+}
+
+
+/* START - COLUMN STYLING */
+
+.container{
+  height: 550px;
+  margin-bottom: 50px;
+}
+
+
+.column {
+  
+  height: 495px;
+  width: 30%;
+  border: 2px solid #fff;
+  float: left; 
+  margin-left: 35px;
+  margin-bottom: 40px;
+  
+}
+
+
+.cl-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 20px;
+ 
+}
+
+
+h2{
+  text-align: center;
+}
+
+p {
+  
+  color: navy;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+/* END - COLUMN STYLING */
+
+
+
+/* FOOTER START*/
+
+.main-box {
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1800px;
+  
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.circle-background {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center {
+  margin: 0 auto;
+  
+}
+
+.center-text {
+  padding-top: 35px;
+  color: #fff;
+  
+  
+}
+
+
+.fa-facebook-f {
+  color: white;
+  
+}
+
+
+
+
+.contactinfo {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Shojumaru', cursive;
+}
+
+.vid {
+  float: left;
+  position: absolute;
+  left: 700px;
+  top: 500px;
+  
+}
+
+audio {
+  position: absolute;
+  top: 300px;
+  left: 780px;
+}
+
+
+.sitename{
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  left: 200px;
+  font-family: 'Permanent Marker', cursive;
+  
+
+}
